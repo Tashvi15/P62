@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title> Photo Gallery</title>
+    <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    <div class="container">
+     <section id="heading">
+        <img src="heading.jpg" id="img1">
+        </section>
+        <section id="grid">
+        <h2>Grid View</h2>
+            <br>
+            <br>
+            <div class="row">
+            <img class="img2" src="aurora.jfif">
+            <img class="img2" src="bella.jpg">   
+             <img class="img2" src="cindrella.jpg">   
+                <br>
+                <br>
+            </div>
+            <div class="row">
+            <img class="img2" src="prince%20and%20princess.jpg">
+            <img class="img2" src="princess-1.jpg">   
+             <img class="img2" src="princess-2.jpg">   
+                <br>
+                <br>
+            </div>
+        </section>
+        <section id="slides">
+        <h2> Sliding Gallery</h2>
+            <div id="myCarousel"class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                
+                </ol>
+                
+            <div class="carousel-inner">
+        <div class="item active">
+        <center>
+            
+            <img src="princess-3.jpg" class="img-responsive">
+            
+            <div class="carousel-content">
+            <p>Princess-3</p>
+            </div>
+            </center>
+        </div>
+         <div class="item active">
+        <center>
+            
+            <img src="princess-4.jpg" class="img-responsive">
+            
+            <div class="carousel-content">
+            <p>Princess-4</p>
+            </div>
+            </center>
+        </div>   
+                <div class="item active">
+        <center>
+            
+            <img src="princess-5.jfif" class="img-responsive">
+            
+            <div class="carousel-content">
+            <p>Princess-5</p>
+            </div>
+            </center>
+        </div>
+
+            </div>
+        </section>
+        </div>
+    </body>
+</html>
